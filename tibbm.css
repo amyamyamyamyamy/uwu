@@ -1,0 +1,38 @@
+header {
+background-color: #ffe651;
+grid-area: header;
+}
+
+body {
+background-color: #26619c;
+}
+
+.container {
+position: relative;
+max-width: 1000px;
+height: 1250px;
+margin: auto;
+display: grid;
+grid-template-rows: 15% 40% 40% 5%;
+grid-template-columns: 20% 80%;
+grid-template-areas: "header header"
+                     "side a"
+                     "side a"
+                     "footer footer";
+}
+
+.a {
+font-family: arial;
+grid-area: a;
+background-color: green;
+}
+
+.side {
+background-color: #f17f8c;
+grid-area: side;
+}
+
+footer {
+grid-area: footer;
+background-color: purple;
+}
