@@ -162,3 +162,7 @@ font-family: 'Noto Serif JP', serif;
 color: #fff8e7;
 opacity: .5;
 }
+
+.picbody {
+background-image: url(https://www.ocf.berkeley.edu/~abhimat/Personal_Website/Media/Animation2.gif);
+}
