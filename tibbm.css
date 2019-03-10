@@ -6,7 +6,7 @@ box-sizing: border-box;
 }
 
 .container {
-width: 100%;
+width: 1340px;
 height: 2000px;
 margin: 0px;
 display: grid;
